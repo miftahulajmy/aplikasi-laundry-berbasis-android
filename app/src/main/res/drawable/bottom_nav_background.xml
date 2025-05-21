@@ -1,0 +1,14 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/>
+    <corners android:radius="16dp"/>
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp"/>
+    <shadow
+        android:shadowColor="#FF000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="8"/>
+</shape>

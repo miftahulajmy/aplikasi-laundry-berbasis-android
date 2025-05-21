@@ -1,0 +1,60 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/service"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/namaLayanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuci Setrika"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20dp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:id="@+id/hargaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp5.000"
+            android:textSize="16sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:id="@+id/waktuTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 Hari"
+            android:textSize="16sp"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:id="@+id/deskripsiTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="layanan lengkap"
+            android:textSize="16sp"
+            android:paddingTop="4dp" />
+    </LinearLayout>
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

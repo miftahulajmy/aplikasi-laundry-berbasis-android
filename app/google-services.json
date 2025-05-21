@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "604735944818",
+    "project_id": "htmlaundry-817d6",
+    "storage_bucket": "htmlaundry-817d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604735944818:android:27c6448b6e57a9b759aaeb",
+        "android_client_info": {
+          "package_name": "com.example.htmlaundrymobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh-zDXQHrbc8H4jX6YtfpiQ0g49DpwbXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

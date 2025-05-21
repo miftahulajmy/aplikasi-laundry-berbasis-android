@@ -1,0 +1,108 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_wave"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/bg_rounded_top" />
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/l_img1"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:src="@drawable/laundry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="HTM Laundry"
+                android:textColor="@color/primary"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Silahkan masuk untuk melakukan transaksi"
+                android:textColor="@color/primaryColor"
+                android:textSize="16sp" />
+
+                <ScrollView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true">
+
+
+                <LinearLayout
+                android:id="@+id/ly1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <EditText
+                    android:id="@+id/editTextUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_rounded_trans"
+                    android:hint="username"
+                    android:paddingLeft="10dp" />
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_rounded_trans"
+                    android:hint="password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dp" />
+
+                <Button
+                    android:id="@+id/buttonLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:onClick="onButtonClick"
+                    android:background="@drawable/bg_button"
+                    android:text="Masuk"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/buttonRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Belum punya akun? Daftar"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColorLink="@color/primaryColor"
+                    android:autoLink="all"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    tools:ignore="MissingConstraints"
+                    />
+            </LinearLayout>
+                </ScrollView>
+        </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
